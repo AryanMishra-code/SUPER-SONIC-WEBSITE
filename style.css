@@ -1,0 +1,47 @@
+h1{
+    color : blue ;
+}
+*{
+    border: solid;
+} 
+.header{
+    background : linear-gradient(to right, red, yellow,blue);
+    display : flex;
+    justify-content: center;
+    border-color: orange;
+}
+.header2{
+    background : linear-gradient(to left, pink, turquoise, orange);
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-color: green;
+}
+.header3{
+    background : radial-gradient( magenta, yellow);
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-color: magenta;
+}
+.site-description{
+    display : flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid{
+    background : linear-gradient(to top, turquoise, brown, gold);
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    border-color: red; 
+}
+.footer{
+    background-image: radial-gradient(red, yellow, blue);
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+body{
+    background : linear-gradient(to top, red, yellowgreen, blue, magenta, orange) ;
+}
